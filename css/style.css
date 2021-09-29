@@ -33,10 +33,10 @@ body{
 
   /*Req 1*/
   font-family: "Andika", sans-serif;
-  background-image: url(.../images/pigeon-background.jpeg);
+  background-image: url('.../images/pigeon-background.jpeg') #DDDDDD;
   background-repeat: no-repeat;
-  background-color: #DDDDDD;
-
+  background-size: cover;
+  background-position: center;
 }
 
 h1{
@@ -50,13 +50,13 @@ h1{
 
 p{
   font-size: 15px;
-  padding-top: 2;
+  padding-top: 15px;
 }
 
 a{
   font-size: 16px;
   color: #B21F50;
-  text-decoration-style: wavy;
+  text-decoration-style: underline wavy;
 
 }
 
