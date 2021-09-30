@@ -33,7 +33,7 @@ body{
 
   /*Req 1*/
   font-family: "Andika", sans-serif;
-  background-image: url('.../images/pigeon-background.JPEG') #DDDDDD;
+  background: url('.../images/pigeon-background.JPEG') #DDDDDD;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -70,9 +70,7 @@ a{
 
 td{
   text-align: center;
-  border-width: 2px 0px 0px 0px;
-  border-style: solid;
-  border-color: #000000;
+  border-top: 2px solid black;
   padding: 10px;
 }
 
@@ -88,7 +86,7 @@ td{
 }
 
 .rowhead{
-  border: 2px 2px 0px 0px black;
+  border: 2px 2px 0px 0px solid black;
 }
 
 tr:nth-child(2n){
