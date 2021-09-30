@@ -82,7 +82,7 @@ td{
   padding: 10px;
   vertical-align: middle;
   text-transform: uppercase;
-  background-color: #7e0820;
+  background-color: #7e0825;
 
 }
 
@@ -96,7 +96,7 @@ tr:nth-child(2n){
 }
 
 tr:hover{
-  background-color: rgba(126, 8, 32, 0.25);
+  background-color: rgba(126, 8, 37, 0.25);
 }
 
 table{
